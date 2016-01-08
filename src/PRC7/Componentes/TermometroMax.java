@@ -16,7 +16,6 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.ThermometerPlot;
 import static org.jfree.chart.plot.ThermometerPlot.*;
 import org.jfree.data.general.DefaultValueDataset;
-import org.w3c.dom.css.RGBColor;
 
 /**
  *

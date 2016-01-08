@@ -8,10 +8,6 @@
 
 package PRC7;
 
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.ChartPanel;
-import org.jfree.chart.JFreeChart;
-import org.jfree.data.general.DefaultPieDataset;
 import Calculos.Calculos;
 import PRC7.Componentes.MedidorAF;
 import PRC7.Componentes.MedidorLLuvia;
@@ -27,26 +23,12 @@ import PRC7.Observer.MonthDisplay;
 import PRC7.Observer.PlaceDisplay;
 import PRC7.Observer.TypeDisplay;
 import PRC7.Observer.YearDisplay;
-import java.awt.BasicStroke;
-import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Graphics;
 import java.awt.Toolkit;
 import java.util.Observable;
 import java.util.Observer;
-import javax.swing.JButton;
 import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JLayeredPane;
 import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import org.jfree.chart.plot.ThermometerPlot;
-import static org.jfree.chart.plot.ThermometerPlot.CRITICAL;
-import static org.jfree.chart.plot.ThermometerPlot.NORMAL;
-import static org.jfree.chart.plot.ThermometerPlot.WARNING;
-import org.jfree.data.general.DefaultValueDataset;
 
 /**
  *
